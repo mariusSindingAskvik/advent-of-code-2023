@@ -90,7 +90,7 @@ fun main() {
         return input.sumOf { it.calibrationValue(true) }
     }
 
-    val input = readInput("day01")
+    val input = readInput("day01/day01")
     part1(input).println()
     part2(input).println()
 }
